@@ -8,7 +8,7 @@ def test_ekatalog(page:Page):
 
     eproc.open_url()
     
-    eproc.fill_account("9999901","Password123")
+    eproc.fill_account("*******","*********")
 
     eproc.fill_otp("123456")
 
